@@ -3,32 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Wadelivery 🍕🍕🍕</title>
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
+    <script src="scripts.js"></script>
     <div>
     <h1 id="titulo">Pizzaria Carvalho</h1>
     <p id="subtitulo">Wadelivery sistema para restaurantes</p>
     </div>
-    <fieldset class="grupo">
-        <div class="campo">
-            <label for="qtsab"><strong>Quantidade de sabores:</strong></label>
-            <select id="qtsab">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-            </select>
-        </div>
-    </fieldset>
+    <fieldset class= "campo">
+              
+        <label for="tam">Tamanho da pizza:</label><br>
+                <div>
+                    <button class = "botao">Grande</button>
+                    <button class = "botao">Brotinho</button>
+            </botao>
+        </fieldset>
 
-    <fieldset id="saboresSelecao">
-        <div class="campo">
-            <label for="sabor1"><strong>Sabor:1</strong></label>
+
+    
+    <fieldset class="campo">
+            <label for="qtsab">Quantidade de sabores:</label><br>
+            <div>
+                <button class = "botao" id="qtSabores1">1</button>
+                <button class = "botao" id="qtSabores2">2</button>
+                <button class = "botao" id="qtSabores3">3</button>
+                <button class = "botao" id="qtSabores4">4</button>
+            </div>
+        </fieldset>
+
+
+    <fieldset class ="campo">
+        <div class="sabores">
+            <label><strong>Sabor 1:</strong></label>
             <select id="sabor1">
-                
+
             </select>
         </div>
     </fieldset>
+    
 </body>
 </html>
